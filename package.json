@@ -1,0 +1,23 @@
+{
+  "name": "redux-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "npm test -- --watch",
+    "start": "babel-node src/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^24.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "jest": "^24.6.0"
+  },
+  "dependencies": {
+    "redux": "^4.0.1"
+  }
+}
